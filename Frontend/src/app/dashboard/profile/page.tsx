@@ -1,6 +1,6 @@
-import { ProfileForm } from "@/components/profile/profile-form"
-import { ProfileHeader } from "@/components/profile/profile-header"
-import { ProfileStats } from "@/components/profile/profile-stats"
+import { ProfileForm } from "@/components/profile-form"
+import { ProfileHeader } from "@/components/profile-header"
+import { ProfileStats } from "@/components/profile-stats"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export default function ProfilePage() {

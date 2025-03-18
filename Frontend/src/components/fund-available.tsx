@@ -1,6 +1,12 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Banknote } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Banknote } from "lucide-react";
 
 export function FundAvailable() {
   return (
@@ -22,6 +28,5 @@ export function FundAvailable() {
         </Button>
       </CardFooter>
     </Card>
-  )
+  );
 }
-
